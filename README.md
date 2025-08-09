@@ -1,19 +1,23 @@
 # Netflix - Landing Page
 
-🎵 Projeto Spotify Clone
-Este é um projeto inspirado no Spotify, desenvolvido para fins de estudo e prática de HTML, CSS e JavaScript.
-O objetivo foi recriar e modelar um novo layout para a pagina de login da Netflix.
-<br>
-📌 Funcionalidades
-Layout de uma nova pagina de login para a Netflix
-Responsividade
-Menu lateral hamburguer na versão mobile(links)
-Organização de arquivos (HTML, CSS, JS separados)
-<br>
-🖥️ Tecnologias Utilizadas
-HTML5
-CSS3
-Javascript<br>
+# 📽️ Projeto Netflix Login
+
+Este é um projeto de remodelação da tela de login da Netflix, desenvolvido para fins de estudo e prática de HTML, CSS e JavaScript.  
+
+---
+
+## 📌 Funcionalidades
+- Layout inspirado e remodelado na pagina de login da Netflix
+- Responsividade mobile
+- Menu lateral Hamburguer para mobile
+- Organização de arquivos (HTML, CSS, JS)
+
+---
+
+## 🖥️ Tecnologias Utilizadas
+- HTML5
+- CSS3
+- Javascript
 
 Link: 
 
