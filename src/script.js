@@ -55,11 +55,11 @@ const BtnPassword = document.querySelector('.visibilitySvg');
 BtnPassword.addEventListener('click', () => {
     if (input[1].type == 'password') {
         input[1].type = 'text';
-        BtnPassword.src = 'img/visibility_off.svg'
+        BtnPassword.src = './assets/visibility_off.svg'
 
     } else {
         input[1].type = 'password'
-        BtnPassword.src = 'img/visibility.svg'
+        BtnPassword.src = './assets/visibility.svg'
         
     }
 })

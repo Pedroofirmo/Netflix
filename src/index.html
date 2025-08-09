@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico">
     <title>Netflix</title>
 </head>
+
 <body>
     <header>
         <nav>
             <div class="limited-area header">
-                <a href="#"><img class="logo" src="img/netflix_logo.svg"></a>
-                <a href="#"><img class="logoM" src="img/netflix-logo_mobile.svg"></a>
+                <a href="#"><img class="logo" src="./assets/netflix_logo.svg"></a>
+                <a href="#"><img class="logoM" src="./assets/netflix-logo_mobile.svg"></a>
+
                 <div class="mobile-menu">
                     <div></div>
                     <div></div>
@@ -38,22 +41,22 @@
                 <input type="radio" name="radio-btn" id="radio5">
                 <input type="radio" name="radio-btn" id="radio6">
                 <div class="slide-img">
-                    <img src="img/wandinha.webp" />
+                    <img src="./assets/wandinha.webp" />
                 </div>
                 <div class="slide-img">
-                    <img src="img/dahmer.webp" />
+                    <img src="./assets/dahmer.webp" />
                 </div>
                 <div class="slide-img">
-                    <img src="img/strangerthings.webp" />
+                    <img src="./assets/strangerthings.webp" />
                 </div>
                 <div class="slide-img">
-                    <img src="img/peakyblinders.webp" />
+                    <img src="./assets/peakyblinders.webp" />
                 </div>
                 <div class="slide-img">
-                    <img src="img/enolaholmes2.webp" />
+                    <img src="./assets/enolaholmes2.webp" />
                 </div>
                 <div class="slide-img">
-                    <img src="img/cobrakai.webp" />
+                    <img src="./assets/cobrakai.webp" />
                 </div>
                 <div class="sombra"></div>
             </div>
@@ -62,11 +65,14 @@
                     <h1>Entrar</h1>
                     <form>
                         <div class="label-input">
-                            <input class="email-password" id="email" type="email" placeholder="Digite seu email">
+                            <label class="label-email-senha" for="email">Email ou número de telefone</label>
+                            <input class="email-password" id="email" type="email">
                         </div>
                         <div class="label-input">
-                            <input class="email-password" id="password" type="password" placeholder="Senha" required>
-                            <label class='label-button' for="password"><img class='visibilitySvg' src="img/visibility.svg"></label>
+                            <label class="label-email-senha" for="password">Senha</label required>
+                            <input class="email-password" id="password" type="password" required>
+                            <label class='label-button' for="password"><img class='visibilitySvg'
+                                    src="./assets/visibility.svg"></label>
                         </div>
                         <button class="submit" type="submit">Entrar</button>
                         <div class="container-checkbox-label">
@@ -98,4 +104,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
