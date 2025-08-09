@@ -19,7 +19,7 @@ Este é um projeto de remodelação da tela de login da Netflix, desenvolvido pa
 - CSS3
 - Javascript
 
-Link: 
+Link: https://netflix-login-plum.vercel.app
 
 <img src="https://user-images.githubusercontent.com/108599877/205718483-739c3eca-f039-4ea4-acff-f3aaeb0c374f.png">
 
