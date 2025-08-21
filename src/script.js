@@ -60,3 +60,21 @@ BtnPassword.addEventListener('click', () => {
         BtnPassword.src = './assets/visibility.svg'
     }
 })
+
+// ===== VALIDAÇÃO DO FORMULÁRIO =====
+const form = document.querySelector('form');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault(); // impede o envio real
+
+    const email = input[0].value.trim();
+    const senha = input[1].value.trim();
+
+    if (email === '' || senha === '') {
+        alert('Por favor, preencha todos os campos!');
+        return;
+    }
+
+    // Aqui você pode adicionar código para enviar os dados ou fazer login
+    alert('Formulário enviado com sucesso!');
+});
