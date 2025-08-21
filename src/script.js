@@ -47,7 +47,6 @@ const btnMobile = document.querySelector('.mobile-menu');
 btnMobile.addEventListener('click', () => {
     const nav = document.querySelector('nav');
     nav.classList.toggle('active');
-
 })
 
 const BtnPassword = document.querySelector('.visibilitySvg');
@@ -56,10 +55,8 @@ BtnPassword.addEventListener('click', () => {
     if (input[1].type == 'password') {
         input[1].type = 'text';
         BtnPassword.src = './assets/visibility_off.svg'
-
     } else {
         input[1].type = 'password'
         BtnPassword.src = './assets/visibility.svg'
-        
     }
 })
